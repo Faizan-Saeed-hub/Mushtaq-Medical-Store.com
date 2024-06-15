@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushtaq Medical Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navUl = document.querySelector("nav ul");
+
+            menuToggle.addEventListener("click", function() {
+                navUl.classList.toggle("show");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Mushtaq Medical Store</h1>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#clinic-details">Clinic Details</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Usman Heart Care Clinic and Mushtaq Medical Store</h2>
+            <p>Mushtaq Medical Store is your trusted destination for all your medical needs, offering a wide range of
+                high-quality healthcare products and services.</p>
+            <p>Our clinic is staffed with a highly qualified cardiologist dedicated to providing exceptional heart
+                care. Our clinic offers convenient hours, comprehensive facilities, and professional services.</p>
+        </section>
+
+        <section id="clinic-details">
+            <h2>Clinic Details</h2>
+            <p>At our clinic, <span class="highlight">Dr. Rasheed Ahmad</span>, a highly qualified cardiologist, is dedicated to providing exceptional
+                heart care.</p>
+
+            <h3>Clinic Timing</h3>
+            <ul>
+                <li>Monday (4:00 pm - 7:00 pm)</li>
+                <li>Thursday (3:00 pm - 7:00 pm)</li>
+                <li>Friday (4:00 pm - 7:00 pm)</li>
+                <li>Sunday (4:00 pm - 7:00 pm)</li>
+            </ul>
+
+            <h3>Facilities</h3>
+            <ul>
+                <li>Electrocardiogram (ECG)</li>
+                <li>Echocardiography (ECHO)</li>
+                <li>Blood Tests</li>
+                <li>Cholesterol Tests</li>
+                <li>Metabolic Tests</li>
+            </ul>
+
+            <p>Consultation Fee: 1200 PKR</p>
+            <p>2nd visit in same month: 600 PKR</p>
+            <p>ECG Fee: 400 PKR</p>
+            <p>Echo Fee: 3000 PKR</p>
+
+            <p><mark>Appointment Call at (9:00 am - 8:00 pm): +92334-4192623</mark></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: Circular Road, Mushtaq Medical Store, Sharaqpur Sharif, District Sheikhupura</p>
+            <p>Store Working Days: Monday, Sunday</p>
+            <p>Clinic Working Days: Monday, Thursday, Friday, Sunday</p>
+            <h3>For more detail, click on the mobile or WhatsApp icon</h3>
+        </section>
+
+        <section id="location">
+            <h2>Location ⬇️</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13613.034802738517!2d74.1019244!3d31.462069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918fbea69d03527%3A0xf78048eabb3f58fd!2sMushtaq%20Medical%20Store!5e0!3m2!1sen!2s!4v1718358617177!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Mustaq Medical Store has been providing quality medical supplies to our community for over 20 years. We
+                pride ourselves on our customer service and wide selection of products.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mustaq Medical Store. All rights reserved.</p>
+    </footer>
+    <div class="floating-call">
+        <a href="tel:+923344192623" class="floating-button">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+    <div class="floating-whatsapp">
+        <a href="https://wa.me/+923042950950" target="_blank" class="floating-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</body>
+
+</html>
